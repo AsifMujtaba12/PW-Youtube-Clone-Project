@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube-Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    <header class="mt-1">
+        <nav>
+            <div class="flex items-center justify-between py-2 px-3 w-full h-[80px]">   
+                <!-- leftside -->
+                 <div class="flex items-center gap-4 ml-5 w-1/6">
+              
+                   <button class="p-2 hover:bg-gray-200 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></button> 
+                   <img class="w-[100px] h-[50px]" src="youtube-logo.jpg" alt="">
+                 </div>
+                 <!-- middlepart -->
+               <div class="flex items-center gap-[420px] border-2 px-5 rounded-full py-2 w-1/2"> 
+
+                    <input class="border-none outline-0 px-[1px] mr-2 " type="text" placeholder="Search" >
+                    <button ><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></button>
+            </div> 
+            <div class="mr-[160px] bg-gray-100 p-2 hover:bg-gray-200 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-400q-50 0-85-35t-35-85v-240q0-50 35-85t85-35q50 0 85 35t35 85v240q0 50-35 85t-85 35Zm0-240Zm-40 520v-123q-104-14-172-93t-68-184h80q0 83 58.5 141.5T480-320q83 0 141.5-58.5T680-520h80q0 105-68 184t-172 93v123h-80Zm40-360q17 0 28.5-11.5T520-520v-240q0-17-11.5-28.5T480-800q-17 0-28.5 11.5T440-760v240q0 17 11.5 28.5T480-480Z"/></svg></div>
+
+            <!-- rightside -->
+             <div class="flex items-center gap-4 w-1/7 mr-5">
+                <button class="p-2 hover:bg-gray-200 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M360-320h80v-120h120v-80H440v-120h-80v120H240v80h120v120ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h480q33 0 56.5 23.5T720-720v180l160-160v440L720-420v180q0 33-23.5 56.5T640-160H160Zm0-80h480v-480H160v480Zm0 0v-480 480Z"/></svg></button>
+                <button class="p-2 hover:bg-gray-200 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"/></svg></button>
+                <button class="p-2 hover:bg-gray-200 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z"/></svg></button>
+                
+             </div>
+            </div>
+        </nav>
+    </header>
+    <main >
+           
+         <div class="w-full flex mt-2">
+  <!-- sidebar -->
+   <div class="flex flex-col item-start gap-7 ml-3 w-[80px]" >
+    <button class="flex flex-col gap-1 items-center px-3 py-3  text-center text-xs hover:bg-gray-200 rounded-md "><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>Home</button>
+    <button class="flex flex-col gap-1 items-center px-3 py-3  text-center text-xs hover:bg-gray-200 rounded-md "><img class="w-[24px] h-[24px]" src="youtube-shorts-logo-15253.svg" alt="">Shorts</button>
+    <button class="flex flex-col gap-1 items-center px-3 py-3  text-center text-xs hover:bg-gray-200 rounded-md "><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M160-80q-33 0-56.5-23.5T80-160v-400q0-33 23.5-56.5T160-640h640q33 0 56.5 23.5T880-560v400q0 33-23.5 56.5T800-80H160Zm0-80h640v-400H160v400Zm240-40 240-160-240-160v320ZM160-680v-80h640v80H160Zm120-120v-80h400v80H280ZM160-160v-400 400Z"/></svg>Create</button>
+   </div>
+         <!-- recents -->
+          <div class="flex flex-col gap-3 items-center ">
+          <div class="flex items-center gap-4 px-3 py-2 ml-[30px] font-sans h-[50px]">
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">All </button>
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">T-Series </button>
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">Thrillers </button>
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">Web Devlopment </button>
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">Arjit Singh </button>
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">Computer Science </button>
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">Science fiction </button>
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">Live </button>
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">JavaScript </button>
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">Songs </button>
+            <button class="px-3 py-2 bg-gray-100 pointer rounded-md font-semibold hover:bg-gray-200 ">Hollywood </button>
+            <!-- maincontent -->
+          </div>
+          <div class="grid grid-cols-3 w-[1200px] ml-[60px] items-center justify-items-center">
+            <img class="transition-all duration-300 ease-in-out hover:scale-110 " src="y3.PNG" alt="">
+            <img class="transition-all duration-300 ease-in-out hover:scale-110 "  src="y2.PNG" alt="">
+            <img class="transition-all duration-300 ease-in-out hover:scale-110 "  src="y3.PNG" alt="">
+            <img class="transition-all duration-300 ease-in-out hover:scale-110 "  src="y4.PNG" alt="">
+            <img class="transition-all duration-300 ease-in-out hover:scale-110 "  src="y5.PNG" alt="">
+            <img class="transition-all duration-300 ease-in-out hover:scale-110 "  src="y6.PNG" alt="">
+            <img class="transition-all duration-300 ease-in-out hover:scale-110 "  src="y7.PNG" alt="">
+            <img class="transition-all duration-300 ease-in-out hover:scale-110 "  src="y8.PNG" alt="">
+            <img class="transition-all duration-300 ease-in-out hover:scale-110 "  src="y3.PNG" alt="">
+
+
+            
+         </div>
+        </div>
+         </div>
+         
+    </main>
+</body>
+</html>
